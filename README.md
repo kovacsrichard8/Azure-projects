@@ -28,6 +28,7 @@ A további beállítások elvégzését a Monitoring fülön kell elvégeznünk,
 
 A szabályok határértékeinek túllépésénél e-mail értesítést kerül beállításra még, amely az általunk beállított "severity" vagyis súlyossági fok alapján küld értesítőt az e-mail fiókunkba. 
 
+<img src="./images/Windows - Email notify.jpg" width="400">
 
 
 
