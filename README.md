@@ -57,6 +57,29 @@ Testreszabjuk, hogy a két korábban létrehozott virtuális gépeinket szeretn�
 
 <img src="./images/Metrics - Apply VMs.jpg" width="350">
 
+A létrehozást követően a diagramhoz metrikákat adhatunk hozzá, amikkel vizsgálódhatunk és elemezhetjük a megfigyelt erőforrásainkat. Az adatgyűjtés rendszeres iőközönként történik és szűrhetjük az eredményeket az időközök megválasztásával, ami órában, napban, de akár hónapban is elérhetőek számunkra. Jelen esetben a memória és a processzor terheltségét mutatják a diagramok. Fontos megjegyezni, hogy egy diagramon kombinált eredményeket is létrehozhatunk, nem csak és kizárólag egy eredmény kimutatására alkalmasak. 
+<table>
+  <tr>
+    <td><img src="./images/Metrics - CPU chart.jpg" width="300"></td>
+    <td><img src="./images/Metrics - Charts.jpg" width="300"></td>
+  </tr>
+</table>
+
+Az eredményeinket külön irányítópultban kezelhetjük, ahol újbóli lekérdezések nélkül az általunk létrehozott erőforráscsoportban megtekinthetőek a legfrisebb eredmények az erőforrások állapotáról. Az irányítópultot használhatjuk saját célra, de akár megosztott állapotban a szervezet különböző felhasználói reszére is közzé tehetjük. Az irányítópultok létrehozása néhány kattintással elérhetővé válik, ahol a fentiek szerint eldönthetjük a felhasználás célját.
+
+<img src="./images/Metrics - Pin dashboard.jpg" width="300">  
+<img src="./images/Metrics - Create dashboard.jpg" width="150">
+
+A létrehozott irányítópultokat tovább színesíthetjük csempék hozzáadásával, amikkel számunkra releváns és hasznos funkciókkal tudjuk bővíteni az irányítópult megjelenését. Közvetlen hozzáférést biztosíthatunk erőforrásainkhoz vagy akár API segítségével egy kattintás segítségével végezhetünk [műveleteket](https://learn.microsoft.com/hu-hu/rest/api/compute/virtual-machines?view=rest-compute-2025-04-01) a megfigyelt virtuális gépeinken.
+
+<img src="./images/Dashboard - Edit button.jpg" width="300">
+<img src="./images/Dashboard - Tile gallery.jpg" width="300">
+  
+
+
+
+
+
 
 
 
