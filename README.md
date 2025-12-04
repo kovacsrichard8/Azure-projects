@@ -107,6 +107,29 @@ Az adatok vizualizációja 10-15 perc múltán megjelenik a megfigyelt virtuáli
     </tr>
 </table>
 
+### Naplók lekérdezése (KQL)
+
+A virtuális gépek működésének adatait most már tárolja a Log Analytics Workspace, amik létfontosságú adatokat tárolnak a gépek működéséről. Éppen ezért nyomonkövetésük fontos a cég vagy akár egy felhasználó számára is, mert nemcsak a működésről, hanem a belefektetett költségek kényes egyensúlyáról is szó van.
+A KQL lekérdezéseket a Monitoring felületen a Logs gombra kattintva érhetjük el, ahol egy ablakban a hatókört megadva (Saját Workspace) és a felületen a KQL (Kusto Query Language) módot alkalmazva máris használatra kész.
+
+
+A lekérdezésekkel egyszerűbb vagy akár összetettebb információkhoz is hozzájuthatunk. Az általunk konfigurált Data Collection Rule InsightsMetrics tábla metrikáit az alábbi lekérdezéssel jeleníthetjük meg:
+
+```kusto
+InsightsMetrics
+| summarize by Name
+```
+További lekérdezéseket lehet elvégezni, amelyekkel vizsgálni lehet a CPU használatot percenkénti lebontásban:
+
+
+Logokat kérdezhetünk le a megfelelő elenvezést használva adott időszakra visszamenőleg:
+
+
+Összetettebb lekérdezést a diszkek teljes méretéről és a még felhasználható méretéről: 
+
+
+Végül egy tesztet, amely percenkénti frissítéssel számszerűsíti a virtuális gépek működésbeli vagy éppen használaton kívüli állapotát. A képen látható, hogy a virtuális gépek az elmúlt egy napban sokat futottak. 
+
 
 
 
