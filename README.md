@@ -122,7 +122,7 @@ InsightsMetrics
 ```
 További lekérdezéseket lehet elvégezni, amelyekkel vizsgálni lehet a CPU használatot percenkénti lebontásban:
 
-<img src="./images/KQL - CPU using in%.jpg" width="300">
+<img src="./images/KQL - CPU using.jpg" width="300">
 
 Logokat kérdezhetünk le a megfelelő elenvezést használva adott időszakra visszamenőleg:
 
