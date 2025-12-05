@@ -161,6 +161,8 @@ Leállítás:
 sudo pkill stress-ng
 ```
 
+<br>
+
 Windows esetében PowerShell használatával:
 
 Futtatás:
