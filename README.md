@@ -4,6 +4,8 @@
 
 ### Virtuális gépek létrehozása
 
+<br>
+
 *Windows virtuális gép létrehozása*
 
 Az erőforráscsoport létrehozását követően a "Create" gombra kattintva a Marketplace keresősávjába beírjuk, hogy Virtual Machine és elindítjuk a folyamatot.
@@ -30,6 +32,8 @@ A szabályok határértékeinek túllépésénél e-mail értesítést kerül be
 
 <img src="./images/Windows - Email notify.jpg" width="400">
 
+<br>
+
 *Linux virtuális gép létrehozása*
 
 A Linux rendszerű virtuális gép létrehozásának folyamata hasonló lépésekből épül fel, mint a korábban létrehozott gép. Az első érdemi változás a "Basics" fülön az image fájl kiválasztásánál lesz tapasztalható, ahol már egy "Ubuntu 24.04 LTS x64" képfájlt kell használni. Mindemellett a Windows részére szánt gépméretet érdemes lehet kisebbre cserélni (Standard_B1s), amelyen a Linux rendszer könnyedén el fog futni a kisebb erőforrásigénye miatt. 
@@ -44,6 +48,7 @@ A Standard SSD használatának kiválasztásán túl a lényegi módosításokat
 
 <img src="./images/Linux - Monitoring.jpg" width="350">
 
+---
 
 ### Komplex irányítópult létrehozása
 
@@ -75,6 +80,7 @@ A létrehozott irányítópultokat tovább színesíthetjük csempék hozzáadá
 <img src="./images/Dashboard - Edit button.jpg" width="300">
 <img src="./images/Dashboard - Tile gallery.jpg" width="300">
 
+---
 
 ### Naplók engedélyezése
 
@@ -107,6 +113,8 @@ Az adatok vizualizációja 10-15 perc múltán megjelenik a megfigyelt virtuáli
     </tr>
 </table>
 
+---
+
 ### Naplók lekérdezése (KQL)
 
 A virtuális gépek működésének adatait most már tárolja a Log Analytics Workspace, amik létfontosságú adatokat tárolnak a gépek működéséről. Éppen ezért nyomonkövetésük fontos a cég vagy akár egy felhasználó számára is, mert nemcsak a működésről, hanem a belefektetett költségek kényes egyensúlyáról is szó van.
@@ -135,6 +143,8 @@ Logokat kérdezhetünk le a megfelelő elenvezést használva adott időszakra v
 Végül egy tesztet, amely percenkénti frissítéssel számszerűsíti a virtuális gépek működésbeli vagy éppen használaton kívüli állapotát. A képen látható, hogy a virtuális gépek az elmúlt egy napban sokat futottak. Az adott számláló percenként ad hozzá egyet a korábbi értékhez. 
 
 <img src="./images/KQL - VM working.jpg" width="300">
+
+---
 
 ### Riasztások tesztelése és módosítása
 
